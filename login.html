@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Raleway:wght@600&family=Roboto+Condensed:wght@300;400&family=Seaweed+Script&display=swap" rel="stylesheet">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div class="header">
+        <header class="header-text">
+            <a class="header-namelogourl" href="/main.html">
+                <h1 class="header-namelogo">Social</h1>
+            </a>
+            <a href="/profile.html" class="avatar-container">
+                <img src="/Style/img/account_circle.svg" alt="" class="avatar-profile">
+            </a>
+        </header>
+    </div>
+    <div class="wrapper">
+        <div >
+            <img  class="register-img" src="/Style/img/background-reg.png" alt="">
+            <div class="registration-form">
+                <form action="/profile.html" method="POST">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="username" placeholder="Логин" required>
+                    <input type="password" name="password" placeholder="Пароль" required>
+                    <button type="submit">Войти</button>
+                    <h1> Нет аккаунта? <a href="/register.html">Зарегистрироваться</a></h1>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

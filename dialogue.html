@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Raleway:wght@600&family=Roboto+Condensed:wght@300;400&family=Seaweed+Script&display=swap" rel="stylesheet">
+    <title>Диалог</title>
+</head>
+<body>
+    <div class="header">
+        <header class="header-text">
+            <a class="header-namelogourl" href="/main.html">
+                <h1 class="header-namelogo">Social</h1>
+            </a>
+            <a href="/profile.html" class="avatar-container">
+                <img src="/Style/img/account_circle.svg" alt="" class="avatar-profile">
+            </a>
+        </header>
+    </div>
+    <div class="wrapper">
+        <aside class="sidebar">
+            <ul class="menu">
+                <li><a href="/main.html"><span class="menu-text">Главная</span></a></li>
+                <li><a href="/dialogue.html"><span class="menu-text">Диалоги</span></a></li>
+                <li><a href="/users.html"><span class="menu-text">Пользователи</span></a></li>
+            </ul>
+        </aside>
+        <div class="chat-box">
+            <div class="message">
+                <div class="message-content">Привет! Как дела?</div>
+            </div>
+            <div class="message">
+                <div class="message-content">Привет! Всё хорошо, спасибо!</div>
+            </div>
+            <!-- Добавьте здесь новые сообщения по мере необходимости -->
+        </div>
+        <div class="message-input">
+            <input type="text" id="message-input" placeholder="Введите сообщение...">
+            <button id="send-button">Отправить</button>
+        </div>
+    </div>
+    <script src="/js/chat.js" ></script>
+</body>
+</html>
